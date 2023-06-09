@@ -1,5 +1,5 @@
 steps:
-- name:  'gcr.io/cloud-builders/docker'
+- name:  'gcr.io/dev-ecb-data-lake/Automated-build-app/docker'
   args:  ['build' , '-t' , 'gcr.io/dev-ecb-data-lake/Automated-build-app' ,'.']
 images:
 - 'gcr.io/dev-ecb-data-lake/Automated-build-app'
