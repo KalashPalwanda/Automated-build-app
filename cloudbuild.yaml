@@ -1,7 +1,7 @@
 steps:
 - name:  'gcr.io/cloud-builders/docker'
-  args:  ['build' , '-t' , 'gcr.io/$PROJECT_ID/cloudbuild-demo' ,'.']
+  args:  ['build' , '-t' , 'gcr.io/dev-ecb-data-lake/Automated-build-app' ,'.']
 images:
-- 'gcr.io/$PROJECT_ID/cloudbuild-demo'
+- 'gcr.io/dev-ecb-data-lake/Automated-build-app'
 options:
   logging: CLOUD_LOGGING_ONLY
